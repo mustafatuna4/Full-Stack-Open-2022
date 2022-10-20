@@ -1,0 +1,10 @@
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYzNGM2OGIxNmRjNDI4YTdjZDk0MGVjNCIsImlhdCI6MTY2NTk5Njg0Nn0.9EHwhmaa3H_EjKwi1mkpRsrkNcKOfRHxHVc7meac5bs
+
+{
+    "title": "GG",
+        "author": "Arteezy",
+        "url": "wp.com",
+        "likes": "3"
+}
