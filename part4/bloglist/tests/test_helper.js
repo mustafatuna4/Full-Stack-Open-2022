@@ -5,13 +5,21 @@ const initialBlogs = [
     title: 'Ultimatom',
     author: 'Jason Bourne',
     url: 'xd.com',
-    likes: '2'
+    likes: '2',
+    user: [{
+      username: "root",
+      password: "sekret",
+  }],
   },
   {
     title: 'Go To Statement Considered Harmful',
     author: 'Edsger W. Dijkstra',
     url: 'http://www.u.arizona.edu/~rubinson/copyright_violations/Go_To_Considered_Harmful.html',
     likes: 5,
+    user: [{
+      username: "root",
+      password: "sekret",
+  }],
   }
 ]
 

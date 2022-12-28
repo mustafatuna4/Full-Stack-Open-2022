@@ -53,5 +53,5 @@ module.exports = {
   userExtractor,
   requestLogger,
   unknownEndpoint,
-  errorHandler
+  errorHandler,
 }

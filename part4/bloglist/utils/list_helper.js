@@ -27,12 +27,9 @@ const mostLikes = (blogs) => {
     return result
   },{})
   const key = Object.keys(authorLikes)
-  const m_key = authorLikes[key[0]]
-
   const likes = key.map(blog => authorLikes[blog])
   const maxKey = _.max(likes)
   return {author: _.find(key,blog => authorLikes[blog]===maxKey),blogs:maxKey}
-
 }
 
 module.exports = {
